@@ -41,5 +41,24 @@ namespace ChocolateFactory.Model
             //pobranie z bazy danych zamówieniea na podstawie ID
             //utworzenie z tego nowego zamówienia
         }
+        public void GetContractors()
+        {
+            //Pobranie wszystkich kontrahentów z bazy
+        }
+
+        public void GetProducts()
+        {
+            //Pobranie wszystkich produktów z bazy wraz ze stanem magazynowym
+            //Jeżeli się uda to pobranie tylko tych produktów dla,których stan magazynowy jest wiekszy od 0.
+        }
+
+        public void GetOrders()
+        {
+            //Pobranie wszystkuch zamówień
+        }
+        public void GetOrderPositions(Guid orderId)
+        {
+            //Pobranie wszytskich pozycji z zamówienia na podstawie ID zamówienia
+        }
     }
 }
